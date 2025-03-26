@@ -1,13 +1,15 @@
 class Smartphone:  
-    def __init__(self):  
-        self.marca = None
-        self.modelo =  None
-        self.armazenamento = None
-        self.cor =  None
-        self.preco = None 
+    def __init__(self, marca, modelo, armazenamento, cor, preco):  
+        self.marca = marca
+        self.modelo = modelo
+        self.armazenamento = armazenamento
+        self.cor = cor
+        self.preco = preco
 
-Smart1= Smartphone()
+smart1 = Smartphone('Samsung', 'A15', '256gb', 'Azul escuro', '1200,00')
 
-Smartphone.nome ="melhor do ano"
-
-print(Smart1.nome)
+print(smart1.marca)
+print(smart1.modelo)
+print(smart1.armazenamento)
+print(smart1.cor)
+print(smart1.preco)
