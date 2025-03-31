@@ -1,15 +1,15 @@
-class pixeis:  
-    def __init__(self,livro, autor, preço, quantidade , avaliação, ):  
-        self.livro = livro
-        self.autor = autor
-        self.avaliação = avaliação
-        self.quantidade= quantidade  
-        self.preço = preço
+class Pixel:
+    def __init__(self, valor1, valor2, valor3, valor4, valor5):
+        self.cor = valor1
+        self.brilho = valor2
+        self.tamanho = valor3
+        self.resolucao = valor4
+        self.status = valor5
 
-pixel1 = pixeis('peter pan', 'J. M. Barrie', '82% gostaram desse livro', ' 282 páginas', '$46,71')
+pixel1 = Pixel("Vermelho","70","20x20","1080p","Ativo")
 
-print(pixel1.livro)
-print(pixel1.autor)
-print(pixel1.avaliação)
-print(pixel1.quantidade)
-print(pixel1.preço)
+print('Cor: ' + pixel1.cor)
+print('Brilho: ' + pixel1.brilho)
+print('Tamanho: ' + pixel1.tamanho)
+print('Resolução: ' + pixel1.resolucao)
+print('Status: ' + pixel1.status)
