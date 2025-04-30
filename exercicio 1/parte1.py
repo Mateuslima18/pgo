@@ -73,7 +73,7 @@ class MenuInterativo:
             print("Parabéns! Você derrotou o inimigo.")  
 
 
-# Testando o sistema de pontos e energia com menu interativo  
+ 
 jogador_pontos = JogadorComPontos()  
 menu = MenuInterativo(jogador_pontos)  
 menu.iniciar_jogo()
